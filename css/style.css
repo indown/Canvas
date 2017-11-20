@@ -10,7 +10,7 @@ body{
 ul{
 	list-style: none;
 }
-.canva{
+#canva{
 	position: fixed;
 	top:0;
 	left: 0;
