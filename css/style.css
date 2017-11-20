@@ -1,0 +1,92 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: pink;
+	overflow:hidden;
+	
+}
+ul{
+	list-style: none;
+}
+.custom{
+	height: 170px;
+	position: absolute;
+	top:50px;
+	left: 20px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+.selectAll{
+	display: none;
+
+	transition: all 3s;
+}
+.select{
+	position: absolute;
+	width: 150px;
+	height: 120px;
+	/*background: #fff;*/
+	top: 50px;
+	left: 70px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:column;
+	justify-content:space-between;
+	transition: all 3s;
+}
+.save{
+	position: absolute;
+	top:50px;
+	right: 20px;
+}
+#main{
+	display: block;
+}
+#caidan{
+	position: absolute;
+	top:10px;
+	right: 20px;
+}
+ul{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-flex-direction:row;
+	opacity: 0;
+	transition: all 3s;
+}
+li{
+	width: 48px;
+	height: 20px;
+	border: 1px solid red;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+}
+hr{
+	background: #000;
+}
+.ceraser1{
+	width: 5px;
+	height: 5px;
+	background: #000;
+}
+ul:nth-child(2)>li{
+	align-items:center;
+}
